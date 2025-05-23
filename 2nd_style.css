@@ -103,7 +103,7 @@ button {
 }
 
 .icon {
-  display: block;
+display: flex;
   margin: auto;
 }
 
