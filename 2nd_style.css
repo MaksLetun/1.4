@@ -6,7 +6,7 @@ body {
     left: 0px; 
     top: 0;
     width: 320px;
-    height: 100vh;
+    height: 1024px;
     background: white;
     transition: transform 0.3s ease;
     box-shadow: 
@@ -162,7 +162,6 @@ button:hover {
     gap: 7px;
     margin-left: 22px;
     margin-top: 40px;
-    margin-bottom: 56px;
 }
 
 .ru_btn:hover {
@@ -184,4 +183,8 @@ button:hover {
     letter-spacing: -0.2px;
     font-weight: 500;
     line-height: 24px;
+}
+
+.footer {
+    margin-bottom: 32px;
 }
