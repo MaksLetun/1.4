@@ -1,20 +1,23 @@
 body {
-    font-family: "TTLakes", "Times New Roman", sans-serif;
-      overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
+  font-family: "TTLakes", "Times New Roman", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
 }
+
 .nav_container {
-    position: fixed;
-    left: 0px; 
-    top: 0;
-    width: 320px;
-    height: 1024px;
-    background: white;
-    transition: transform 0.3s ease;
-    box-shadow: 
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 320px;
+  height: 100vh;
+  max-height: 1024px;
+  background: white;
+  box-shadow: 
     16px 0 52px rgba(14, 24, 80, 0.2),
     -2px 0 4px rgba(69, 79, 126, 0.02);
-  &::-webkit-scrollbar {
+  overflow-y: auto; 
+  -webkit-overflow-scrolling: touch; 
+    &::-webkit-scrollbar {
     display: none;
   }
 }
